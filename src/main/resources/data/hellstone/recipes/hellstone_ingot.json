@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:obsidian"
+    },
+    {
+      "item": "hellstone:raw_hellstone"
+    }
+  ],
+  "result": {
+    "item": "hellstone:hellstone_ingot"
+  }
+}
