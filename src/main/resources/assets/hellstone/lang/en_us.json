@@ -2,8 +2,11 @@
   "item.hellstone.raw_hellstone": "Raw Hellstone",
   "item.hellstone.hellstone_ingot": "Hellstone Ingot",
 
-  "item.hellstone.hellstone_pickaxe": "Hellstone Pickaxe",
   "item.hellstone.hellstone_sword": "Hellstone Sword",
+  "item.hellstone.hellstone_pickaxe": "Hellstone Pickaxe",
+  "item.hellstone.hellstone_axe": "Hellstone Axe",
+  "item.hellstone.hellstone_shovel": "Hellstone Shovel",
+  "item.hellstone.hellstone_hoe": "Hellstone Hoe",
 
   "block.hellstone.hellstone_ore": "Hellstone Ore"
 }

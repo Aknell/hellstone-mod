@@ -2,6 +2,8 @@ package io.github.aknell.hellstone.common;
 
 import io.github.aknell.hellstone.common.block.HellstoneBlocks;
 import io.github.aknell.hellstone.common.item.HellstoneItems;
+import io.github.aknell.hellstone.common.world.feature.HellstoneConfiguredFeatures;
+import io.github.aknell.hellstone.common.world.gen.HellstoneOreGeneration;
 import org.quiltmc.loader.api.ModContainer;
 import org.quiltmc.qsl.base.api.entrypoint.ModInitializer;
 import org.slf4j.Logger;
@@ -18,6 +20,9 @@ public class HellstoneMod implements ModInitializer {
 
 		HellstoneItems.init();
 		HellstoneBlocks.init();
+
+		HellstoneConfiguredFeatures.init();
+		HellstoneOreGeneration.generateOres();
 
 	}
 
