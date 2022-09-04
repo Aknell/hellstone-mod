@@ -9,7 +9,8 @@ import net.minecraft.util.Lazy;
 import java.util.function.Supplier;
 
 public enum HellstoneToolMaterials implements ToolMaterial {
-	HELLSTONE(5, 2400, 12.0F, 5.0F, 20, () -> { return Ingredient.ofItems(new ItemConvertible[]{HellstoneItems.RAW_HELLSTONE}); });
+	HELLSTONE(5, 2400, 12.0F, 5.0F, 20, () -> { return Ingredient.ofItems(new ItemConvertible[]{HellstoneItems.HELLSTONE_INGOT}); }),
+	MYTHRIL(6, 2560, 13.0F, 6.0F, 22, () -> { return Ingredient.ofItems(new ItemConvertible[]{HellstoneItems.MYTHRIL_INGOT}); });
 
 	private final int miningLevel;
 	private final int itemDurability;

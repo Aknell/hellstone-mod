@@ -1,5 +1,6 @@
 package io.github.aknell.hellstone.common.item.custom;
 
+import io.github.aknell.hellstone.common.item.HellstoneItems;
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.item.ItemStack;
@@ -17,7 +18,7 @@ public class HellstoneSwordItem extends SwordItem {
 		stack.damage(1, attacker, (e) -> {
 			e.sendEquipmentBreakStatus(EquipmentSlot.MAINHAND);
 		});
-		target.setOnFireFor(30);
+		if(stack.getItem() == HellstoneItems.HELLSTONE_SWORD) target.setOnFireFor(30);
 		return true;
 	}
 }

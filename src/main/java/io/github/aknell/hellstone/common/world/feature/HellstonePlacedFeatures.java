@@ -27,7 +27,7 @@ public class HellstonePlacedFeatures {
 
 	static {
 		HELLSTONE_ORE_PLACED = PlacedFeatureUtil.register("ore_hellstone_nether", HellstoneConfiguredFeatures.HELLSTONE_ORE,
-				commonOrePlacementModifiers(9, HeightRangePlacementModifier.trapezoid(YOffset.fixed(-80), YOffset.fixed(80))));
+				commonOrePlacementModifiers(9, HeightRangePlacementModifier.trapezoid(YOffset.aboveBottom(8), YOffset.aboveBottom(24))));
 	}
 
 }
