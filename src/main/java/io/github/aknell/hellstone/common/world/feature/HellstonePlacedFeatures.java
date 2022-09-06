@@ -12,6 +12,7 @@ import java.util.List;
 public class HellstonePlacedFeatures {
 
 	public static final Holder<PlacedFeature> HELLSTONE_ORE_PLACED;
+	public static final Holder<PlacedFeature> MYTHRIL_ORE_PLACED;
 
 	private static List<PlacementModifier> orePlacementModifiers(PlacementModifier firstModifier, PlacementModifier secondModifier) {
 		return List.of(firstModifier, InSquarePlacementModifier.getInstance(), secondModifier, BiomePlacementModifier.getInstance());
@@ -28,6 +29,8 @@ public class HellstonePlacedFeatures {
 	static {
 		HELLSTONE_ORE_PLACED = PlacedFeatureUtil.register("ore_hellstone_nether", HellstoneConfiguredFeatures.HELLSTONE_ORE,
 				commonOrePlacementModifiers(9, HeightRangePlacementModifier.trapezoid(YOffset.aboveBottom(8), YOffset.aboveBottom(24))));
+		MYTHRIL_ORE_PLACED = PlacedFeatureUtil.register("ore_mythril_end", HellstoneConfiguredFeatures.MYTHRIL_ORE,
+				commonOrePlacementModifiers(9, HeightRangePlacementModifier.trapezoid(YOffset.aboveBottom(-80), YOffset.aboveBottom(80))));
 	}
 
 }

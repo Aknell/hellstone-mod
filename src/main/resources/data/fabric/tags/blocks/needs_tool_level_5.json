@@ -1,7 +1,6 @@
 {
   "replace": "false",
   "values": [
-    "hellstone:hellstone_ore",
     "hellstone:mythril_ore"
   ]
 }

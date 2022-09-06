@@ -2,11 +2,20 @@
   "item.hellstone.raw_hellstone": "Raw Hellstone",
   "item.hellstone.hellstone_ingot": "Hellstone Ingot",
 
+  "item.hellstone.mythril_ingot": "Mythril Ingot",
+
   "item.hellstone.hellstone_sword": "Hellstone Sword",
   "item.hellstone.hellstone_pickaxe": "Hellstone Pickaxe",
   "item.hellstone.hellstone_axe": "Hellstone Axe",
   "item.hellstone.hellstone_shovel": "Hellstone Shovel",
   "item.hellstone.hellstone_hoe": "Hellstone Hoe",
 
-  "block.hellstone.hellstone_ore": "Hellstone Ore"
+  "item.hellstone.mythril_sword": "Mythril Sword",
+  "item.hellstone.mythril_pickaxe": "Mythril Pickaxe",
+  "item.hellstone.mythril_axe": "Mythril Axe",
+  "item.hellstone.mythril_shovel": "Mythril Shovel",
+  "item.hellstone.mythril_hoe": "Mythril Hoe",
+
+  "block.hellstone.hellstone_ore": "Hellstone Ore",
+  "block.hellstone.mythril_ore": "Mythril Ore"
 }

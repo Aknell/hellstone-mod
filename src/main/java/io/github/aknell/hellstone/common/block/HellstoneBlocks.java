@@ -23,8 +23,8 @@ public class HellstoneBlocks {
 	}
 
 	public static void init() {
-		HELLSTONE_ORE = register("hellstone_ore", new Block(QuiltBlockSettings.of(Material.STONE).requiresTool().strength(5f, 200f)), new QuiltItemSettings().group(ItemGroup.BUILDING_BLOCKS).fireproof());
-		MYTHRIL_ORE = register("mythril_ore", new Block(QuiltBlockSettings.of(Material.STONE).requiresTool().strength(6f, 500f)), new QuiltItemSettings().group(ItemGroup.BUILDING_BLOCKS));
+		HELLSTONE_ORE = register("hellstone_ore", new Block(QuiltBlockSettings.of(Material.STONE).requiresTool().strength(50.0f, 200f)), new QuiltItemSettings().group(ItemGroup.BUILDING_BLOCKS).fireproof());
+		MYTHRIL_ORE = register("mythril_ore", new Block(QuiltBlockSettings.of(Material.STONE).requiresTool().strength(60.0f, 500f)), new QuiltItemSettings().group(ItemGroup.BUILDING_BLOCKS));
 	}
 
 }
